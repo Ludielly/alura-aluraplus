@@ -1,0 +1,18 @@
+/*definindo variáveis*/
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*usando a variável*/
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+}
